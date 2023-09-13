@@ -295,19 +295,20 @@ padding: 96px 0;
          /*===== section 3 =====*/
 
 .section-team {
-  padding: 120px 0;
-  background-color: var(--cloud, #F4F4FD);
+  background-color: #f4f4fd;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .team-member {
-  background-color: #FFFFFF;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
   cursor: pointer;
   overflow: hidden;
+  border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  max-width: 264px;
 }
 
 .name-text {
@@ -316,41 +317,43 @@ padding: 96px 0;
 
 
 .team-title {
+  color: #2e2f42;
+  font-family: inherit;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  text-align: center;
   margin-bottom: 72px;
 }
 
 .team-menu {
   display: flex;
-  gap: 24px;
-  justify-content: space-between;
-  flex-basis: 264px;
+  flex-direction: column;
+  gap: 72px;
+  max-width: 320px;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .team-name {
+  color: #2e2f42;
+  font-family: inherit;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navyblue, #2E2F42);
+  letter-spacing: 0.4px;
   text-align: center;
   margin-bottom: 8px;
 }
 
 .team-text {
+  color: #434455;
+  font-family: inherit;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate, #434455);
+  letter-spacing: 0.32px;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -377,13 +380,13 @@ padding: 96px 0;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} 
 
 .svg-icon-list:hover,
 .svg-icon-list:focus {
   background-color: #404bbf;
   outline: transparent;
-}
+} 
 
 .svg-icon-team {
   width: 16px;
