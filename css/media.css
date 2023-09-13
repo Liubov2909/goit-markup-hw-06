@@ -34,32 +34,32 @@
     flex-direction: column;
     gap: 12px;
   }
-
-  .section-main {
+       /* section 1 */
+  .section-big {
     padding: 112px 0;
   }
 
-  .main-title {
+  .page-title {
     font-size: 56px;
     line-height: 1.07;
     max-width: 496px;
   }
-
-  .list-one {
+      /* section 2 */
+  .control-menu {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
     max-width: 768px;
   }
 
-  .list-two {
+  .control-menu-item {
     width: calc((100% - 24px) / 2);
   }
 
-  .priorities-list {
+  .control-title {
     text-align: start;
   }
-
+    /* section 3 */
   .list-three {
     flex-direction: row;
     flex-wrap: wrap;
