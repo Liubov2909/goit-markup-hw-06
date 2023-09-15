@@ -51,7 +51,7 @@
         <!-- ====section 1 HERO==== -->
 
     <main>
-      <section class="section-big">
+      <section class="section-big section">
         <div class="container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
           <button type="button" class="my-button">Order Service</button>
@@ -60,7 +60,7 @@
 
       <!-- ====Section 2==== -->
 
-    <section class="section-control">
+    <section class="section-control section">
       <div class="container">
         <h2 class="visually-hidden">Section Priorities</h2>
         <!-- Цей заголовок прихований на макеті, але потрібен для читалок та пошукових систем -->
@@ -111,13 +111,14 @@
 
        <!--section 3 -->
 
-        <section class="section-team">
+        <section class="section-team section">
           <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul class="team-menu">
               <li class="team-member">
-                <img src="./images/boy1.jpg" 
+                <img  
                  srcset="./images/boy1.jpg 1x, ./images/boy1-2x.jpg 2x"
+                 src="./images/boy1.jpg"
                  width="264" 
                  height="260" 
                  alt="Product Designer Mark Guerrero">                  
@@ -157,8 +158,9 @@
                 </div>
               </li>
               <li class="team-member">
-                <img src="./images/boy2.jpg"
+                <img 
                   srcset="./images/boy2.jpg 1x, ./images/boy2-2x.jpg 2x"
+                  src="./images/boy2.jpg"
                   width="264" 
                   height="260" 
                   alt="Frontend Developer Tom Ford">
@@ -198,8 +200,9 @@
                   </div>
               </li>
               <li class="team-member">
-                <img src="./images/girl.jpg"
+                <img 
                   srcset="./images/girl.jpg 1x, ./images/girl-2x.jpg 2x" 
+                  src="./images/girl.jpg"
                   width="264" 
                   height="260" 
                   alt="Marketing Camila Garcia">
@@ -239,8 +242,9 @@
                   </div>
               </li>
               <li class="team-member">
-                <img src="./images/boy3.jpg"
-                  srcset="./images/boy3.jpg 1x, ./images/boy3-2x.jpg 2x" 
+                <img 
+                  srcset="./images/boy3.jpg 1x, ./images/boy3-2x.jpg 2x"
+                  src="./images/boy3.jpg" 
                   width="264" 
                   height="260" 
                   alt="UI Designer Daniel Wilson">
@@ -285,7 +289,7 @@
 
         <!-- section 4 -->
 
-        <section class="section-portfolio">
+        <section class="section-portfolio section">
           <div class="container">
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-menu">
@@ -516,5 +520,67 @@
         </form>
         </div>
       </div>
+      
+      <!-- ==== mobile-menu ==== -->
+
+      <div class="mobile-menu is-open">
+        <button class="close-form-mobile-menu" type="button">
+          <svg class="close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav>
+          <ul class="page-nav-link-mobile-menu">
+            <li><a class="page-link-mobile-menu current" href="./index.html">Studio</a></li>
+            <li><a class="page-link-mobile-menu" href="#portfolio">Portfolio</a></li>
+            <li><a class="page-link-mobile-menu" href="#footer">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address-mobile-menu">
+          <ul class="page-nav-address-mobile-menu">
+            <li>
+              <a class="contact-link-mobile-menu-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a class="contact-link-mobile-menu" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="social-list-mobile-menu">
+          <li class="icon-list-mobile-menu">
+            <a class="icon-link-mobile-menu" href="">
+              <svg class="svg-mobile-menu" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-mobile-menu">
+            <a href="" class="icon-link-mobile-menu">
+              <svg width="24" height="24" class="svg-mobile-menu">
+                <use href="./images/icons.svg#icon-twitter">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-mobile-menu">
+            <a href="" class="icon-link-mobile-menu">
+              <svg class="svg-mobile-menu" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook">
+                </use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-list-mobile-menu">
+            <a href="" class="icon-link-mobile-menu">
+              <svg class="svg-mobile-menu" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin">
+                </use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
   </body>
 </html>

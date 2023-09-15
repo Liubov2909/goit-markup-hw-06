@@ -116,6 +116,7 @@
     width: 408px;
   }
 }
+/*  */
 @media (min-width: 1158px) {
   section {
     padding: 120px 0;
@@ -123,6 +124,8 @@
 
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .header-logo {
@@ -203,7 +206,8 @@
   }
 }
 
-@media (resolution: 192dpi) {
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx), screen and (min-device-pixel-ratio: 2) {
   .section-big {
     background-image: linear-gradient(to bottom,
         rgba(46, 47, 66, 0.7),
