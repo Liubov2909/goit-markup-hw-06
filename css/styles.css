@@ -175,7 +175,7 @@ padding-bottom: 96px;
   background-image: linear-gradient(to bottom,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-      url(../images/people-office.jpg);
+      url(../images/people-office-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -388,12 +388,12 @@ padding-bottom: 96px;
 
       /*===== section 4 =====*/
 
-/* .section-portfolio {
+.section-portfolio {
   background-color: #FFF;
   padding: 120px 0;
-} */
+}
 
-/* .portfolio-title {
+.portfolio-title {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -403,7 +403,7 @@ padding-bottom: 96px;
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
- } */
+ }
 
  .portfolio-menu {
   display: flex;
